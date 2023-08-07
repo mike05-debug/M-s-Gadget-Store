@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | M's Gadgets</title>
+    <script defer src="./js/script.js"></script>
+    <script src="./js/all.min.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 5px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        .post {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .post-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .post-meta {
+            color: #777;
+        }
+
+        .post-content {
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<!-- Navbar Section -->
+<nav class="navbar" id="navbar"> 
+    <div class="navbar-container">
+        <a href="/" id="navbar-logo">
+            <i class="fas fa-gear"></i>M's Gadgets
+        </a>
+        <div class="navbar-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="navbar-menu">
+            <li class="navbar-item">
+                <a href="/index.html" class="navbar-links">Home</a>
+            </li>
+            <li class="navbar-item">
+                <a href="store.html" class="navbar-links">Store</a>
+            </li>
+            <li class="navbar-item">
+                <a href="about.html" class="navbar-links">About</a>
+            </li>
+
+            <li class="navbar-item">
+                <a href="blog.html" class="navbar-links">Blog</a>
+            </li>
+
+            <li class="navbar-item">
+                <a href="news.html" class="navbar-links">News</a>
+            </li>
+            <li id="acc-output" class="navbar-item">
+                <!-- Account Page appears here if you've signed in -->
+            </li>
+            <li class="navbar-btn">
+                <a href="signup.html" class="navbar-button">Sign Up</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Contact Btn-->
+    <button class="contact-btn"><i class="i fa fa-phone"></i></button>
+
+    <!-- Contact Section -->
+    <div class="contact-section">
+        <div class="contact-header">
+            <button id="exit-contact"><i class="i fa fa-x"></i></button>
+        <h2>Contact Us</h2>
+        </div>
+        <form action="submit" class="contact-container">
+            <div class="email-container">
+                <input type="email" name="" id="email-input" placeholder="email" required>
+            </div>
+            <div class="pass-container">
+                <input type="password" name="" id="pass-input" placeholder="password" required>
+            </div>
+            <div class="text-container">
+                </i><textarea name="" id="text-input" cols="30" rows="5" class="message-input" placeholder="Write your message here" required></textarea>
+            </div>
+            <button id="contact-btn" type="submit">Send  <i class="i fa fa-gear"></i></button>
+        </form>
+    </div>
+            
+    <!-- Chatbot Btn-->
+    <button class="chat-btn"><i class="i fa fa-comment"></i>Send us a message</button>
+</nav>
+
+<body>
+    <div class="container">
+        <div class="post">
+            <h2 class="post-title">First Blog Post</h2>
+            <p class="post-meta">Posted on August 7, 2023</p>
+            <div class="post-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet, metus sit amet malesuada congue,
+                tortor nibh ullamcorper erat, vel sagittis risus odio a lorem. Nullam eleifend, quam eu rhoncus
+                efficitur, est metus interdum velit, nec hendrerit justo tortor id nisi.</p>
+            </div>
+        </div>
+
+        <div class="post">
+            <h2 class="post-title">Second Blog Post</h2>
+            <p class="post-meta">Posted on August 8, 2023</p>
+            <div class="post-content">
+                <p>Phasellus in tortor et ante ullamcorper varius at eget est. Nullam sit amet faucibus ante, vel euismod
+                orci. Praesent aliquet malesuada elit, in facilisis purus luctus eu. Vestibulum vel elementum mi.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer-container" id="footer">
+        <div class="footer-links">
+            <div class="footer-link-wrap">
+                <div class="footer-link-items">
+                    <h2>M's Gadgets</h2>
+                    <a href="about.html">About Us</a>
+                    <a href="#">My Cart</a>
+                    <a href="#">Browse</a>
+                </div>
+                <div class="footer-link-items">
+                    <h2>Contact Us</h2>
+                    <a href="#">Partners</a> <a href="#">Help</a>
+                    <a href="#">Feedback</a>
+                </div>
+                <div class="footer-link-items">
+                    <h2>Media</h2>
+                    <a href="#">Tech Blog</a> <a href="#">Press</a>
+                </div>
+                <div class="footer-link-items">
+                    <h3>Stay Informed!</h3>
+                    <p>Sign up for M'sGadgets.com news and deals.</p>
+                    <input type="email" name="email" placeholder=" Your Email" id="signin"> <button class="sub-btn">Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <div class="social-media">
+            <div class="social-media-wrap">
+                <div class="footer-logo">
+                    <a href="index.html" id="footer-logo"><i class="fa fa-gear"></i>M's Gadgets</a>
+                    <p class="website-rights">©M's Gadgets 2023. All rights reserved.</p>
+                </div>
+                <div class="social-icons">
+                    <a href="https://www.youtube.com/account" class="social-icon-links" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://www.instagram.com/accounts/login/?" class="social-icon-links" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://twitter.com/i/flow/login" class="social-icon-links" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.facebook.com/campaign/landing.php?&
+                    campaign_id=1652975230&extra_1=s%7Cc%7C318263901759%7Ce%7Cfacebook
+                    %27%7C&placement=&creative=318263901759&keyword=facebook%27&
+                    partner_id=googlesem&extra_2=campaignid%3D1652975230%26adgroupid
+                    %3D71931260548%26matchtype%3De%26network%3Dg%26source%3Dnotmobile
+                    %26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition
+                    %3D%26target%3D%26targetid%3Dkwd-362360550869%26loc_physical_ms%
+                    3D9076660%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2
+                    %3D&gclid=CjwKCAjwyaWZBhBGEiwACslQo8KJFNb8Jxo-aj3IIv3gJl5iGdusiTTiC
+                    x2aSlvpO6KDxlUS-5DqEhoC2MIQAvD_BwE" class="social-icon-links" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
