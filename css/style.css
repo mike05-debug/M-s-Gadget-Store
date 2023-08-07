@@ -486,7 +486,7 @@
     height: 400px;
     width: 100%;
     /* border-radius: 5px; */
-    background-image: linear-gradient(to bottom, #00000000,   #000000c2 100%), url('../media/books-g2a23ec1dd_1920.jpg');
+    background-image: linear-gradient(to bottom, #00000000,   #000000c2 100%), url('../media/pexels-polina-tankilevitch-4523031.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -581,15 +581,15 @@
 }
 
 .service-card:nth-child(3){
-    background-image: linear-gradient(to bottom, #00000052,   #006bde4a 100%), url('../media/book-g3263aaad5_1920.jpg');
+    background-image: linear-gradient(to bottom, #00000052,   #006bde4a 100%), url('../media/pexels-john-petalcurin-2115256.jpg');
 }
 
 .service-card:nth-child(2){
-    background-image: linear-gradient(to bottom, #00000052,   #006bde4a 100%), url('../media/books-gd148a6e27_1920.jpg');
+    background-image: linear-gradient(to bottom, #00000052,   #006bde4a 100%), url('../media/pexels-max-deroin-51415.jpg');
 }
 
 .service-card:nth-child(1){
-    background-image: linear-gradient(to bottom, #00000052,   #006bde4a 100%), url('../media/leaves-gf25878567_1920.jpg');
+    background-image: linear-gradient(to bottom, #00000052,   #006bde4a 100%), url('../media/pexels-areous-ahmad-3175979.jpg');
 }
 
 .service-text{
@@ -672,19 +672,19 @@
 }
 
 .recent-card:nth-child(1){
-    background-image: linear-gradient(to bottom, #00000052,   #006bde4a 100%), url("../media/book_txt_01.png");
+    background-image: linear-gradient(to bottom, #00000052,   #006bde4a 100%), url("../media/ps5-credit-sie@2000x1270.jpg");
 }
 
 .recent-card:nth-child(2){
-    background-image: linear-gradient(to bottom, #00000052,   #006bde4a 100%), url("../media/book_txt_02.png");
+    background-image: linear-gradient(to bottom, #00000052,   #006bde4a 100%), url("../media/pexels-pixabay-164710.jpg");
 }
 
 .recent-card:nth-child(3){
-    background-image: linear-gradient(to bottom, #00000052,   #006bde4a 100%), url("../media/book_txt_03.png");
+    background-image: linear-gradient(to bottom, #00000052,   #006bde4a 100%), url("../media/pexels-nathan-j-hilton-10997583.jpg");
 }
 
 .recent-card:nth-child(4){
-    background-image: linear-gradient(to bottom, #00000052,   #006bde4a 100%), url("../media/book_txt_04.png");
+    background-image: linear-gradient(to bottom, #00000052,   #006bde4a 100%), url("../media/alienware\ aurora\ AMD\ Ryzen\ 9\ RTX\ 3080.jpg");
 }
 
 .recent-card:hover{
