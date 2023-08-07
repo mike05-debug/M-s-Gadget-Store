@@ -845,7 +845,7 @@
 }
 
 #book-img{
-    width: 210px;
+    width: 280px;
     border-radius: var(--rad);
 }
 
@@ -870,9 +870,12 @@
 
 .book-text{
     position: absolute;
+    align-items: center;
+    border-radius: var(--rad);
     top: 1%;
     left: 1%;
-    width: 130px;
+    width: 150px;
+    background: var(--theme);
 }
 
 .book-text p {
